@@ -1,32 +1,34 @@
 {
-  "name": "torrent-search-cli",
-  "version": "1.0.3",
-  "description": "Search torrents on the command line and open them in your default torrent application",
-  "main": "torrent.js",
-  "bin": {
-    "torrent": "./torrent.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Michael Leaney <leahcimic@gmail.com>",
-  "license": "ISC",
-  "dependencies": {
-    "choices": "^0.1.0",
-    "command-line-args": "^2.1.6",
-    "open": "0.0.5",
-    "search-kat.ph": "^1.0.1"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/leahciMic/torrent-search-cli"
-  },
-  "keywords": [
-    "torrent"
-  ],
-  "bugs": {
-    "url": "https://github.com/leahciMic/torrent-search-cli/issues"
-  },
-  "homepage": "https://github.com/leahciMic/torrent-search-cli"
+    "name": "torrent-search-cli",
+    "version": "1.0.3",
+    "description": "Search torrents on the command line and open them in your default torrent application",
+    "main": "torrent.js",
+    "bin": {
+	"torrent": "./torrent.js"
+    },
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Michael Leaney <leahcimic@gmail.com>",
+    "contributors": "cphyc <contact@cphyc.me>"
+    "license": "ISC",
+    "dependencies": {
+	"choices": "^0.1.0",
+	"command-line-args": "^2.1.6",
+	"open": "0.0.5",
+	"path": "^0.12.7",
+	"search-kat.ph": "^1.0.1"
+    },
+    "devDependencies": {},
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/cphyc/torrent-search-cli"
+    },
+    "keywords": [
+	"torrent"
+    ],
+    "bugs": {
+	"url": "https://github.com/cphyc/torrent-search-cli/issues"
+    },
+    "homepage": "https://github.com/cphyc/torrent-search-cli"
 }
