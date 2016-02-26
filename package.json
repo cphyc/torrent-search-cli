@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "choices": "^0.1.0",
+    "command-line-args": "^2.1.6",
     "open": "0.0.5",
     "search-kat.ph": "^1.0.1"
   },
